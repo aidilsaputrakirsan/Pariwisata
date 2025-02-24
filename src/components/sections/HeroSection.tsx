@@ -21,47 +21,23 @@ function HeroSection({
   setPauseAutoPlay,
 }: IProps) {
   const destinations = [
-    {
-      value: "pemapak",
-      displayName: "Air Panas Pemapak",
-    },
-    {
-      value: "hutan-berau",
-      displayName: "Hutan Berau",
-    },
+    { value: "pemapak", displayName: "Air Panas Pemapak" },
+    { value: "hutan-berau", displayName: "Hutan Berau" },
   ];
 
   const persons = [
-    {
-      value: "1",
-      displayName: "1 Orang",
-    },
-    {
-      value: "2",
-      displayName: "2 Orang",
-    },
+    { value: "1", displayName: "1 Orang" },
+    { value: "2", displayName: "2 Orang" },
   ];
 
   const checkIn = [
-    {
-      value: "Sun, 17th Sep 2025",
-      displayName: "Minggu, 17 Sep 2025",
-    },
-    {
-      value: "Mon, 18th Sep 2025",
-      displayName: "Senin, 18 Sep 2025",
-    },
+    { value: "Sun, 17th Sep 2025", displayName: "Minggu, 17 Sep 2025" },
+    { value: "Mon, 18th Sep 2025", displayName: "Senin, 18 Sep 2025" },
   ];
 
   const checkOut = [
-    {
-      value: "Sun, 24th Sep 2025",
-      displayName: "Minggu, 24 Sep 2025",
-    },
-    {
-      value: "Mon, 25th Sep 2025",
-      displayName: "Senin, 25 Sep 2025",
-    },
+    { value: "Sun, 24th Sep 2025", displayName: "Minggu, 24 Sep 2025" },
+    { value: "Mon, 25th Sep 2025", displayName: "Senin, 25 Sep 2025" },
   ];
 
   const handleArrowUpClick = () => {
@@ -205,12 +181,12 @@ function HeroSection({
         <div className="flex flex-col mt-4">
           <ChevronUp
             color="#fff"
-            className="cursor-pointer "
+            className="cursor-pointer"
             onClick={handleArrowUpClick}
           />
           <ChevronDown
             color="#fff"
-            className="cursor-pointer "
+            className="cursor-pointer"
             onClick={handleArrowBottomClick}
           />
         </div>

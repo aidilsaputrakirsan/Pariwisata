@@ -5,7 +5,7 @@ import MainButton from "../common/MainButton";
 
 function NewsletterSection() {
   return (
-    <section className="bg-white flex items-center flex-col md:flex-row justify-between drop-shadow-lg gap-16 md:rounded-[26px] md:-mb-[4rem] p-5 md:p-[80px] pt-8">
+    <section className="bg-[#E8F6E8] flex items-center flex-col md:flex-row justify-between drop-shadow-lg gap-16 md:rounded-[26px] md:-mb-[4rem] p-5 md:p-[80px] pt-8">
       <div
         className={cn(
           playFair.className,
@@ -20,7 +20,7 @@ function NewsletterSection() {
           <Input
             type="email"
             placeholder="Masukkan Email Anda"
-            className="bg-[#FFE8D4] text-primary  h-[52px] rounded-[12px]"
+            className="bg-[#E8F6E8] text-primary h-[52px] rounded-[12px]"
           />
         </div>
 

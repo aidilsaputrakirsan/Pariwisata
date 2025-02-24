@@ -26,9 +26,10 @@ function TestimonialSection() {
       position: "Penikmat Wisata Alam",
     },
   ];
+
   return (
     <section>
-      <div className="flex  flex-col md:flex-row justify-between items-end">
+      <div className="flex flex-col md:flex-row justify-between items-end">
         <div>
           <Header
             title="Pengalaman Wisatawan"

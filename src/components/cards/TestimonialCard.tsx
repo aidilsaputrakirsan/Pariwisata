@@ -10,7 +10,7 @@ interface IProps {
 
 function TestimonialCard({ imageUrl, review, name, position }: IProps) {
   return (
-    <div className="bg-[#F5F6F7] relative p-4 md:p-[40px]">
+    <div className="bg-[#ECF9EC] relative p-4 md:p-[40px]">
       <p>{review}</p>
       <div className="my-[20px]">
         <img src="images/star_group.png" alt="Penilaian" />

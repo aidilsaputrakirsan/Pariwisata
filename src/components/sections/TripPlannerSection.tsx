@@ -34,6 +34,7 @@ function TripPlannerSection() {
       duration: "5 Hari",
     },
   ];
+
   return (
     <section className="flex flex-col md:flex-row justify-between items-center">
       <div>
@@ -43,8 +44,8 @@ function TripPlannerSection() {
         />
         <div className="relative inline-block z-10 mt-[35px]">
           <MainButton text="Lihat semua rencana" classes="w-[180px]" />
-          <div className="absolute -top-4 -left-4 w-[43px] h-[43px] bg-[#172432] -z-10"></div>
-          <div className="absolute -bottom-4 -right-4 w-[43px] h-[43px] bg-[#767E86] -z-10"></div>
+          <div className="absolute -top-4 -left-4 w-[43px] h-[43px] bg-[#1A3C2A] -z-10"></div>
+          <div className="absolute -bottom-4 -right-4 w-[43px] h-[43px] bg-[#9EB7A2] -z-10"></div>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mt-16 md:mt-[100px]">

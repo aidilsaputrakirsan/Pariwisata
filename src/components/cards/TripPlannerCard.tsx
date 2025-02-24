@@ -18,6 +18,7 @@ function TripPlannerCard({
   duration,
 }: IProps) {
   const [hover, setHover] = useState(false);
+
   return (
     <div>
       <div>
@@ -36,7 +37,7 @@ function TripPlannerCard({
       >
         <div className="flex justify-between text-[#172432]">
           <p className="uppercase text-[18px]">{title}</p>
-          <p>€{amount}/Hari</p>
+          <p>Rp {amount}/Hari</p>
         </div>
         <p
           className={cn(

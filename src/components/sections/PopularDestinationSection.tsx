@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import customVariants from "@/lib/animation";
 
 function PopularDestinationSection() {
-  // Contoh data destinasi di Pemapak/Berau
   const data = [
     {
       title: "Air Panas Pemapak",
@@ -28,9 +27,10 @@ function PopularDestinationSection() {
       imageUrl: "/images/pd_2.jpg",
     },
   ];
+
   return (
-    <section className="">
-      <div className="flex  flex-col md:flex-row justify-between items-end">
+    <section>
+      <div className="flex flex-col md:flex-row justify-between items-end">
         <div>
           <Header
             title="Destinasi Populer"
@@ -61,7 +61,7 @@ function PopularDestinationSection() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: false }}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-4 mt-16 md:mt-[100px]"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-16 md:mt-[100px]"
       >
         {data.map((item, index) => (
           <motion.div key={index} variants={customVariants.cardItem}>

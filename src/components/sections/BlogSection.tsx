@@ -40,7 +40,7 @@ function BlogSection() {
 
           <div className="text-primary flex items-center gap-3">
             Baca Selengkapnya
-            <ArrowRight color="#FF7757" />
+            <ArrowRight color="#2C6E49" />
           </div>
         </div>
       </div>

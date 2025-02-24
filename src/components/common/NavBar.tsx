@@ -13,13 +13,13 @@ function NavBar() {
     setMenu(!menu);
   };
 
-  // Ubah teks link ke bahasa Indonesia
+  // Ubah menu ke Indonesia
   const links = ["Beranda", "Jelajahi", "Wisata", "Blog", "Harga"];
 
   return (
-    <div className="md:sticky md:top-0   md:shadow-none z-20 ">
+    <div className="md:sticky md:top-0 md:shadow-none z-20">
       {/* DESKTOP */}
-      <div className=" hidden lg:block animate-in fade-in zoom-in bg-transparent p-4">
+      <div className="hidden lg:block animate-in fade-in zoom-in bg-transparent p-4">
         <div className="flex justify-between mx-8 xl:mx-[184px] items-center">
           <div>
             <img src="/images/logo.png" alt="Logo Pemapak" />
@@ -41,7 +41,7 @@ function NavBar() {
           <div className="flex items-center gap-[40px] select-none">
             <Link
               href="/auth/login"
-              className="hover:text-primary text-white cursor-pointer flex items-center gap-2 "
+              className="hover:text-primary text-white cursor-pointer flex items-center gap-2"
             >
               Masuk
             </Link>
@@ -53,11 +53,12 @@ function NavBar() {
           </div>
         </div>
       </div>
+
       {/* MOBILE */}
       <div
-        className={` block lg:hidden  fixed top-0 w-full z-[999] py-4 animate-in fade-in zoom-in  ${
-          menu ? " bg-primary py-2" : "bg-transparent"
-        } `}
+        className={`block lg:hidden fixed top-0 w-full z-[999] py-4 animate-in fade-in zoom-in ${
+          menu ? "bg-primary py-2" : "bg-transparent"
+        }`}
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
@@ -100,14 +101,14 @@ function NavBar() {
               <div className="flex flex-col gap-[40px] select-none">
                 <Link
                   href="/auth/login"
-                  className="hover:text-primary text-white cursor-pointer flex items-center gap-2 "
+                  className="hover:text-primary text-white cursor-pointer flex items-center gap-2"
                 >
                   Masuk
                 </Link>
 
                 <MainButton
                   text="Daftar"
-                  classes="bg-[#B63E22] rounded-[12px] w-[134px]"
+                  classes="bg-[#1F5135] rounded-[12px] w-[134px]"
                 />
               </div>
             </div>

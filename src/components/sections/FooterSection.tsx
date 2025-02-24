@@ -1,7 +1,6 @@
 import React from "react";
 
 function FooterSection() {
-  // Ubah ke bahasa Indonesia
   const menus = ["Beranda", "Jelajahi", "Wisata", "Blog", "Harga"];
   const informations = [
     "Destinasi",
@@ -22,8 +21,9 @@ function FooterSection() {
     "/images/instagram.png",
     "/images/twitter.png",
   ];
+
   return (
-    <section className="bg-[#172432] text-white pb-[140px] px-4 xl:px-[182px] flex flex-col gap-8 md:flex-row justify-between pt-[240px]">
+    <section className="bg-[#1A3C2A] text-white pb-[140px] px-4 xl:px-[182px] flex flex-col gap-8 md:flex-row justify-between pt-[240px]">
       <div>
         <div>
           <img src="/images/footer_logo.png" alt="Logo Air Panas Pemapak" />

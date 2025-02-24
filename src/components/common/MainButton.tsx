@@ -30,7 +30,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       disabled = false,
       isSubmitable,
       width,
-      dataLoadingText = "Mohon tunggu ...", // Ganti ke Bahasa Indonesia
+      dataLoadingText = "Mohon tunggu ...",
       variant = "primary",
       classes,
       iconRoute,
