@@ -3,7 +3,7 @@ import { Rubik } from "next/font/google"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Travellian',
+  title: 'Pariwisata-Tugas',
   description: 'Solving all your travel needs',
 }
 
