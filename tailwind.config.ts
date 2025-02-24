@@ -19,9 +19,9 @@ const config = {
     },
     extend: {
       colors: {
-        "primary": "#FF7757",
-        "customDark": "#172432",
-        "customGray": "#767E86",
+        "primary": "#1F5135",
+        "customDark": "#1A3C2A",
+        "customGray": "#9EB7A2",
       },
       fontSize: {
         18: "18px",
