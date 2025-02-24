@@ -12,20 +12,20 @@ function NewsletterSection() {
           "text-[40px] md:text-[64px] text-customGray"
         )}
       >
-        Our Newsletter
+        Newsletter Kami
       </div>
       <div className="flex flex-col md:flex-row md:items-end gap-[32px] w-full md:w-[inherit]">
         <div>
           <p className="text-customGray mb-4">Email</p>
           <Input
             type="email"
-            placeholder="Enter your email"
+            placeholder="Masukkan Email Anda"
             className="bg-[#FFE8D4] text-primary  h-[52px] rounded-[12px]"
           />
         </div>
 
         <div>
-          <MainButton text="Subscribe" classes="h-[52px] w-[163px]" />
+          <MainButton text="Langganan" classes="h-[52px] w-[163px]" />
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       disabled = false,
       isSubmitable,
       width,
-      dataLoadingText = "Please wait ...",
+      dataLoadingText = "Mohon tunggu ...", // Ganti ke Bahasa Indonesia
       variant = "primary",
       classes,
       iconRoute,
@@ -102,7 +102,6 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
   }
 );
 
-// Assigned display name
 MainButton.displayName = "MainButton";
 
 export default MainButton;

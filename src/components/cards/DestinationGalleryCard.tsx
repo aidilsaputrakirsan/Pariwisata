@@ -9,6 +9,7 @@ function DestinationGalleryCard({ imageUrl }: IProps) {
     <motion.div whileHover={{ y: -30, scale: 1 }} initial={{ y: 0 }}>
       <img
         src={imageUrl}
+        alt="Galeri Destinasi Air Panas Pemapak"
         className="h-[500px] rounded-[26px] object-cover w-full"
       />
     </motion.div>

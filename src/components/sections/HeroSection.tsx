@@ -22,45 +22,45 @@ function HeroSection({
 }: IProps) {
   const destinations = [
     {
-      value: "dubai",
-      displayName: "Dubai",
+      value: "pemapak",
+      displayName: "Air Panas Pemapak",
     },
     {
-      value: "brazil",
-      displayName: "Brazil",
+      value: "hutan-berau",
+      displayName: "Hutan Berau",
     },
   ];
 
   const persons = [
     {
       value: "1",
-      displayName: "1",
+      displayName: "1 Orang",
     },
     {
       value: "2",
-      displayName: "2",
+      displayName: "2 Orang",
     },
   ];
 
   const checkIn = [
     {
-      value: "Sun, 17th Sep 2020",
-      displayName: "Sun, 17th Sep 2020",
+      value: "Sun, 17th Sep 2025",
+      displayName: "Minggu, 17 Sep 2025",
     },
     {
-      value: "Sun, 18th Sep 2020",
-      displayName: "Sun, 18th Sep 2020",
+      value: "Mon, 18th Sep 2025",
+      displayName: "Senin, 18 Sep 2025",
     },
   ];
 
   const checkOut = [
     {
-      value: "Sun, 17th Oct 2020",
-      displayName: "Sun, 17th Oct 2020",
+      value: "Sun, 24th Sep 2025",
+      displayName: "Minggu, 24 Sep 2025",
     },
     {
-      value: "Sun, 18th Oct 2020",
-      displayName: "Sun, 18th Oct 2020",
+      value: "Mon, 25th Sep 2025",
+      displayName: "Senin, 25 Sep 2025",
     },
   ];
 
@@ -84,20 +84,21 @@ function HeroSection({
             "mx-8 xl:mx-[184px]"
           )}
         >
-          Start your unforgettable <br /> journey with us.
+          Jelajahi Keindahan Air Panas Pemapak
         </p>
         <p className="text-24 text-white font-normal mt-3 mx-8 xl:mx-[184px]">
-          The best travel for your jouney begins now
+          Rasakan sensasi berendam di sumber air panas alami di tengah hutan
+          tropis Berau
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row mt-8 md:mt-[170px] mx-4 md:mx-0">
         <div className="bg-white py-16 flex flex-col rounded-t-[16px] md:rounded-t-none md:flex-row gap-[40px] px-4 md:px-32">
           <div>
-            <p className="text-customGray mb-4">Destination</p>
+            <p className="text-customGray mb-4">Destinasi</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select a destination" />
+                <SelectValue placeholder="Pilih Destinasi" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -112,10 +113,10 @@ function HeroSection({
           </div>
 
           <div>
-            <p className="text-customGray mb-4">Person</p>
+            <p className="text-customGray mb-4">Jumlah Orang</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select persons" />
+                <SelectValue placeholder="Pilih Jumlah Orang" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -130,10 +131,10 @@ function HeroSection({
           </div>
 
           <div>
-            <p className="text-customGray mb-4">Check in</p>
+            <p className="text-customGray mb-4">Check In</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select checkin" />
+                <SelectValue placeholder="Pilih Tanggal Check In" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -148,10 +149,10 @@ function HeroSection({
           </div>
 
           <div>
-            <p className="text-customGray mb-4">Check out</p>
+            <p className="text-customGray mb-4">Check Out</p>
             <Select>
               <SelectTrigger className="w-full border-t-0 border-x-0 border-b border-b-black rounded-none">
-                <SelectValue placeholder="Select checkout" />
+                <SelectValue placeholder="Pilih Tanggal Check Out" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -172,8 +173,8 @@ function HeroSection({
               playFair.className
             )}
           >
-            <p className="text-[36px]">Book</p>
-            <p className="text-[36px]">Now</p>
+            <p className="text-[36px]">Pesan</p>
+            <p className="text-[36px]">Sekarang</p>
           </div>
           <ArrowRight color="#fff" />
         </div>

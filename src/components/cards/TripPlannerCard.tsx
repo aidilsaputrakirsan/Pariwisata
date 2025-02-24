@@ -23,10 +23,10 @@ function TripPlannerCard({
       <div>
         <motion.img
           src={imageUrl}
+          alt="Gambar Rencana Perjalanan"
           onHoverStart={() => setHover(true)}
           onHoverEnd={() => setHover(false)}
           animate={hover ? { y: -50 } : { y: 0 }}
-          alt="city"
           className="h-[399px] w-full object-cover rounded-[26px]"
         />
       </div>
@@ -36,7 +36,7 @@ function TripPlannerCard({
       >
         <div className="flex justify-between text-[#172432]">
           <p className="uppercase text-[18px]">{title}</p>
-          <p>€{amount}/Day</p>
+          <p>€{amount}/Hari</p>
         </div>
         <p
           className={cn(
@@ -48,7 +48,7 @@ function TripPlannerCard({
         </p>
         <div className="flex justify-between">
           <div>
-            <img src="/images/star_group.png" alt="star group" />
+            <img src="/images/star_group.png" alt="Penilaian" />
           </div>
           <p className="text-[18px]">{duration}</p>
         </div>

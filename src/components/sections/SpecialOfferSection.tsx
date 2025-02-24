@@ -8,24 +8,24 @@ function SpecialOfferSection() {
   const data = [
     {
       imageUrl: "/images/so_1.jpg",
-      location: "Lisbon, Portugal",
+      location: "Paket Edukasi Konservasi",
       description:
-        "5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.",
-      amount: "500",
+        "3 hari 2 malam: Jelajahi hutan tropis, belajar menanam bibit pohon, dan mengenal satwa liar. Termasuk penginapan sederhana di dekat Air Panas Pemapak.",
+      amount: "1.500.000", // Ubah ke format rupiah
     },
     {
       imageUrl: "/images/so_2.jpg",
-      location: "Athens, Greece",
+      location: "Paket Relaksasi & Terapi",
       description:
-        "5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.",
-      amount: "800",
+        "2 hari 1 malam: Berendam di sumber air panas alami, terapi pijat tradisional, dan wisata kuliner lokal. Cocok untuk melepas penat.",
+      amount: "1.000.000", // Ubah ke format rupiah
     },
     {
       imageUrl: "/images/so_3.jpg",
-      location: "Rome, Italy",
+      location: "Paket Budaya & Kuliner",
       description:
-        "5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.",
-      amount: "750",
+        "2 hari 1 malam: Mengunjungi desa sekitar Pemapak, mencicipi masakan tradisional Berau, serta belajar kesenian lokal.",
+      amount: "800.000", // Ubah ke format rupiah
     },
   ];
   return (
@@ -33,8 +33,8 @@ function SpecialOfferSection() {
       <div className="flex flex-col md:flex-row-reverse gap-4 justify-between items-end">
         <div>
           <Header
-            title="Special Offer"
-            description="Check out our special offer and discounts"
+            title="Penawaran Spesial"
+            description="Lihat paket wisata unggulan dan diskon terbatas di Air Panas Pemapak."
           />
         </div>
         <div className="flex items-center gap-[20px]">
@@ -42,13 +42,13 @@ function SpecialOfferSection() {
             <img
               src="/images/left_icon.svg"
               className="w-[40px]"
-              alt="left icon"
+              alt="Navigasi Kiri"
             />
           </div>
           <div className="hover:cursor-pointer">
             <img
               src="/images/right_icon.svg"
-              alt="right icon"
+              alt="Navigasi Kanan"
               className="w-[40px]"
             />
           </div>

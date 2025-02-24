@@ -23,8 +23,8 @@ function DestinationGallerySection() {
       <div className="flex  flex-col md:flex-row justify-between items-end">
         <div>
           <Header
-            title="Destination Gallery"
-            description="Our photo gallery on trip"
+            title="Galeri Destinasi"
+            description="Kumpulan foto dari Air Panas Pemapak dan sekitarnya"
             isLongUnderline
           />
         </div>
@@ -32,14 +32,14 @@ function DestinationGallerySection() {
           <div className="hover:cursor-pointer">
             <img
               src="/images/left_icon.svg"
-              alt="left icon"
+              alt="Navigasi Kiri"
               className="w-[40px]"
             />
           </div>
           <div className="hover:cursor-pointer">
             <img
               src="/images/right_icon.svg"
-              alt="right icon"
+              alt="Navigasi Kanan"
               className="w-[40px]"
             />
           </div>

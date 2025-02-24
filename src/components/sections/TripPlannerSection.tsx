@@ -7,42 +7,42 @@ function TripPlannerSection() {
   const data = [
     {
       imageUrl: "/images/tp_1.jpg",
-      title: "Guided Tour",
-      description: "Paris City Tour",
+      title: "Paket Petualangan",
+      description: "Jelajahi Hutan Berau",
       amount: "99",
-      duration: "7 Days tour",
+      duration: "4 Hari",
     },
     {
       imageUrl: "/images/tp_2.jpg",
-      title: "Guided Tour II",
-      description: "Paris City Tour",
-      amount: "99",
-      duration: "7 Days tour",
+      title: "Paket Relaksasi",
+      description: "Nikmati Air Panas Pemapak",
+      amount: "120",
+      duration: "3 Hari",
     },
     {
       imageUrl: "/images/tp_3.jpg",
-      title: "Guided Tour III",
-      description: "Paris City Tour",
-      amount: "99",
-      duration: "7 Days tour",
+      title: "Paket Budaya",
+      description: "Wisata Kuliner & Adat Lokal",
+      amount: "80",
+      duration: "2 Hari",
     },
     {
       imageUrl: "/images/tp_4.jpg",
-      title: "Guided Tour IV",
-      description: "Paris City Tour",
-      amount: "99",
-      duration: "7 Days tour",
+      title: "Paket Komplit",
+      description: "Edukasi + Petualangan + Relaksasi",
+      amount: "200",
+      duration: "5 Hari",
     },
   ];
   return (
     <section className="flex flex-col md:flex-row justify-between items-center">
       <div>
         <Header
-          title="Trip Planners"
-          description="20 years from now you will be more disappointed by the things that you didn't do. Stop regretting and start travelling, start throwing off the bowlines."
+          title="Rencana Perjalanan"
+          description="Temukan paket wisata yang sesuai dengan minat Anda, mulai dari konservasi, relaksasi, hingga petualangan hutan."
         />
         <div className="relative inline-block z-10 mt-[35px]">
-          <MainButton text="View all trip plans" classes="w-[180px]" />
+          <MainButton text="Lihat semua rencana" classes="w-[180px]" />
           <div className="absolute -top-4 -left-4 w-[43px] h-[43px] bg-[#172432] -z-10"></div>
           <div className="absolute -bottom-4 -right-4 w-[43px] h-[43px] bg-[#767E86] -z-10"></div>
         </div>

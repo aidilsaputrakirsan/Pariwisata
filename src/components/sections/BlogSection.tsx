@@ -8,8 +8,8 @@ function BlogSection() {
     <section>
       <div>
         <Header
-          title="Our Blog"
-          description="An insight into the incredible experience in the world"
+          title="Blog & Artikel"
+          description="Dapatkan info seputar wisata, konservasi, dan perkembangan Air Panas Pemapak"
         />
       </div>
 
@@ -17,7 +17,7 @@ function BlogSection() {
         <div className="w-full">
           <img
             src="/images/blog.jpg"
-            alt="feature blog image"
+            alt="Foto Blog Feature"
             className="h-[500px] rounded-[26px] w-full object-cover"
           />
         </div>
@@ -28,22 +28,18 @@ function BlogSection() {
               "leading-tight text-[30px] md:text-[54px]"
             )}
           >
-            Beautiful Italy <br />
-            Let&apos;s travel
+            Melihat Lebih Dekat Kekayaan Hutan di Berau
           </p>
           <p className="py-4">
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system and expound the actual teachings of the great
-            explorer of the truth, the master- builder of human happiness. No
-            one rejects, dislike, or avoids plasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremly painful. Nor
-            again is there anyone who loves or pursues.
+            Kawasan Air Panas Pemapak dikelilingi hutan tropis dengan kekayaan
+            flora dan fauna yang menakjubkan. Melalui blog ini, kami akan
+            berbagi tips merencanakan perjalanan, kisah para wisatawan,
+            serta perkembangan upaya konservasi yang dilakukan oleh KLHK
+            bersama Pemerintah Daerah Kabupaten Berau.
           </p>
 
           <div className="text-primary flex items-center gap-3">
-            Read More
+            Baca Selengkapnya
             <ArrowRight color="#FF7757" />
           </div>
         </div>

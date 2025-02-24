@@ -13,6 +13,7 @@ function PopularDestinationCard({ title, location, imageUrl }: IProps) {
     <div className="relative ">
       <img
         src={imageUrl}
+        alt="Destinasi Populer"
         className="h-[500px] rounded-[26px] object-cover w-full"
       />
       <div className="absolute bottom-8 left-4">

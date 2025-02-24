@@ -7,23 +7,23 @@ function TestimonialSection() {
     {
       imageUrl: "/images/t_1.png",
       review:
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.",
-      name: "John Doe",
-      position: "Accountant",
+        "Saya sangat terkesan dengan suasana alam di Air Panas Pemapak. Air panasnya benar-benar menyegarkan dan masyarakat lokalnya ramah. Pasti akan berkunjung lagi!",
+      name: "Siti Aminah",
+      position: "Wisatawan dari Samarinda",
     },
     {
       imageUrl: "/images/t_2.png",
       review:
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.",
-      name: "John Smith",
-      position: "Journalist, HWO News",
+        "Paket edukasi konservasi di Pemapak benar-benar membuka wawasan saya. Menanam bibit pohon di hutan Berau memberi pengalaman tak terlupakan.",
+      name: "Andi Pratama",
+      position: "Mahasiswa Pecinta Alam",
     },
     {
       imageUrl: "/images/t_3.png",
       review:
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.",
-      name: "Tamara Bellis",
-      position: "Managing Director, JTH",
+        "Kolaborasi KLHK dan Pemda Berau patut diacungi jempol. Fasilitas cukup memadai dan lingkungan terjaga. Semoga makin berkembang!",
+      name: "Dewi Lestari",
+      position: "Penikmat Wisata Alam",
     },
   ];
   return (
@@ -31,8 +31,8 @@ function TestimonialSection() {
       <div className="flex  flex-col md:flex-row justify-between items-end">
         <div>
           <Header
-            title="Traveler's Experiences"
-            description="Here some awesome feedback from our travelers"
+            title="Pengalaman Wisatawan"
+            description="Beberapa testimoni seru dari pengunjung Air Panas Pemapak"
             isLongUnderline
           />
         </div>
@@ -50,13 +50,13 @@ function TestimonialSection() {
             <img
               src="/images/left_icon.svg"
               className="w-[40px]"
-              alt="left icon"
+              alt="Navigasi Kiri"
             />
           </div>
           <div className="hover:cursor-pointer">
             <img
               src="/images/right_icon.svg"
-              alt="right icon"
+              alt="Navigasi Kanan"
               className="w-[40px]"
             />
           </div>

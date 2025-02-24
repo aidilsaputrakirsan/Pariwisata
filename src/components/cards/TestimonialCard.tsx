@@ -13,7 +13,7 @@ function TestimonialCard({ imageUrl, review, name, position }: IProps) {
     <div className="bg-[#F5F6F7] relative p-4 md:p-[40px]">
       <p>{review}</p>
       <div className="my-[20px]">
-        <img src="images/star_group.png" alt="star group" />
+        <img src="images/star_group.png" alt="Penilaian" />
       </div>
 
       <div>

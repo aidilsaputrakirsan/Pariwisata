@@ -13,7 +13,8 @@ function NavBar() {
     setMenu(!menu);
   };
 
-  const links = ["Home", "Explore", "Travel", "Blog", "Pricing"];
+  // Ubah teks link ke bahasa Indonesia
+  const links = ["Beranda", "Jelajahi", "Wisata", "Blog", "Harga"];
 
   return (
     <div className="md:sticky md:top-0   md:shadow-none z-20 ">
@@ -21,7 +22,7 @@ function NavBar() {
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-transparent p-4">
         <div className="flex justify-between mx-8 xl:mx-[184px] items-center">
           <div>
-            <img src="/images/logo.png" alt="logo" />
+            <img src="/images/logo.png" alt="Logo Pemapak" />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((link, index) => (
@@ -42,11 +43,11 @@ function NavBar() {
               href="/auth/login"
               className="hover:text-primary text-white cursor-pointer flex items-center gap-2 "
             >
-              Login
+              Masuk
             </Link>
 
             <MainButton
-              text="Signup"
+              text="Daftar"
               classes="bg-primary rounded-[12px] w-[134px]"
             />
           </div>
@@ -60,7 +61,7 @@ function NavBar() {
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
+            <img src="/images/logo.png" alt="Logo Pemapak" className="w-[7rem]" />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
@@ -73,7 +74,7 @@ function NavBar() {
             ) : (
               <img
                 src="/images/hamburger.png"
-                alt="logo"
+                alt="Menu"
                 className="cursor-pointer animate-in fade-in zoom-in"
                 onClick={toggleMenu}
               />
@@ -101,11 +102,11 @@ function NavBar() {
                   href="/auth/login"
                   className="hover:text-primary text-white cursor-pointer flex items-center gap-2 "
                 >
-                  Login
+                  Masuk
                 </Link>
 
                 <MainButton
-                  text="Signup"
+                  text="Daftar"
                   classes="bg-[#B63E22] rounded-[12px] w-[134px]"
                 />
               </div>

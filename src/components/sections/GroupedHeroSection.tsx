@@ -29,7 +29,6 @@ function GroupedHeroSection({ currentIndex, setCurrentIndex }: IProps) {
         setCurrentIndex(0);
         return;
       }
-
       setCurrentIndex(currentIndex + 1);
     }, 10000);
 
@@ -40,7 +39,7 @@ function GroupedHeroSection({ currentIndex, setCurrentIndex }: IProps) {
     return () => {
       clearTimeout(timeoutId);
     };
-  }, [currentIndex, pauseAutoPlay]);
+  }, [currentIndex, pauseAutoPlay, setCurrentIndex]);
 
   return (
     <div

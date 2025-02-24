@@ -5,25 +5,26 @@ import { motion } from "framer-motion";
 import customVariants from "@/lib/animation";
 
 function PopularDestinationSection() {
+  // Contoh data destinasi di Pemapak/Berau
   const data = [
     {
-      title: "Monument of Berlin",
-      location: "Berlin, Germany",
+      title: "Air Panas Pemapak",
+      location: "Kab. Berau, Kalimantan Timur",
       imageUrl: "/images/pd_1.jpg",
     },
     {
-      title: "Millennium Bridge",
-      location: "London, United Kingdom",
+      title: "Hutan Mangrove Berau",
+      location: "Berau, Kalimantan Timur",
       imageUrl: "/images/pd_2.jpg",
     },
     {
-      title: "Rialto Bridge",
-      location: "Venice, Italy",
+      title: "Air Terjun Rimba Raya",
+      location: "Kawasan Hutan Tropis, Berau",
       imageUrl: "/images/pd_3.jpg",
     },
     {
-      title: "Millennium Bridge",
-      location: "London, United Kingdom",
+      title: "Desa Wisata Lestari",
+      location: "Sekitar Pemapak, Berau",
       imageUrl: "/images/pd_2.jpg",
     },
   ];
@@ -32,8 +33,8 @@ function PopularDestinationSection() {
       <div className="flex  flex-col md:flex-row justify-between items-end">
         <div>
           <Header
-            title="Popular Destinations"
-            description="Most popular destinations around the world, from historical places to natural wonders."
+            title="Destinasi Populer"
+            description="Berbagai lokasi menarik di sekitar Air Panas Pemapak, dari keindahan hutan mangrove hingga perkampungan adat."
             isLongUnderline
           />
         </div>
@@ -41,14 +42,14 @@ function PopularDestinationSection() {
           <div className="hover:cursor-pointer">
             <img
               src="/images/left_icon.svg"
-              alt="left icon"
+              alt="Navigasi Kiri"
               className="w-[40px]"
             />
           </div>
           <div className="hover:cursor-pointer">
             <img
               src="/images/right_icon.svg"
-              alt="right icon"
+              alt="Navigasi Kanan"
               className="w-[40px]"
             />
           </div>
