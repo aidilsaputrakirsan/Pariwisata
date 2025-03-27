@@ -1,5 +1,5 @@
 "use client";
-
+/*
 import { useState } from "react";
 import BlogSection from "@/components/sections/BlogSection";
 import DestinationGallerySection from "@/components/sections/DestinationGallerySection";
@@ -36,3 +36,4 @@ export default function Home() {
     </main>
   );
 }
+*/
